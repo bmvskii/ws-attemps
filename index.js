@@ -1,5 +1,6 @@
 const { WebSocket } = require('ws');
 
+// Replace with actual url
 const url = 'wss://lg7mj2lz9lc75da.us.qlikcloud.com/app/1d38158b-14d4-446b-9c11-2a205bdeb7aa?qlik-web-integration-id=gtqIndJuCMlYOTDgGtjbz2GNN7bDJkwd&qlik-csrf-token=vUncsPmF-AyRmnlCtg_nL_N1wo1duUU6I4xM';
 
 const ws = new WebSocket(url, { headers: {
